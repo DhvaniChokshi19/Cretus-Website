@@ -7,7 +7,6 @@
     color: rgb(85, 222, 85);
 }
 
-
 .container {
     display: flex;
     background-color: rgb(37, 37, 37);
@@ -344,4 +343,275 @@ position: absolute;
         top: 2690px;
     
         background: url(image.png);
+}
+.btn4 {
+    position: absolute;
+    margin-left: 10%;
+    top: 2780px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.gallery{
+    display: flex;
+    size: 50%;
+    justify-content: space-between;
+}
+.gallerybg{
+    position: absolute;
+        width: 660px;
+        height: 470px;
+        left: 62px;
+        top: 2900px;
+}
+.eventime{
+    position: absolute;
+        width: 660px;
+        height: 470px;
+        right: 62px;
+        top: 2900px;
+    
+        background: url(6.png);
+}
+.eventtxt{
+position: absolute;
+    width: 484px;
+    height: 113px;
+    left: 900px;
+    top: 3010px;
+
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height:78px;
+    /* or 78px */
+
+    text-align: right;
+
+    color: #FFFFFF;
+}
+.galltxt{
+    position: absolute;
+        width: 484px;
+        height: 113px;
+        left: 79px;
+        top: 3010px;
+    
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 130%;
+        /* or 78px */
+    
+    
+        color: #FFFFFF;
+}
+.btn5 {
+    position: absolute;
+    margin-left: 79px;
+    top:3200px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.btn6{
+    position: absolute;
+    margin-left:1270px;
+    top: 3200px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.testtxt{
+    position: absolute;
+        width: 185px;
+        height: 30px;
+        left: 638px;
+        top: 3400px;
+    
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+}
+.texttxt1{
+    position: absolute;
+        width: 644px;
+        height: 63px;
+        left: 398px;
+        top: 3430px;
+    
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 62px;
+        text-align: center;
+        color: #1EDC0A;
+}
+.contact{
+    position: absolute;
+        width: 266px;
+        height: 63px;
+        left: 92px;
+        top: 4130px;
+    
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 62px;
+        /* identical to box height */
+
+        color: #25F507;
+}.contacttxt{
+position: absolute;
+    width: 369px;
+    height: 60px;
+    left: 5px;
+    top: 70px;
+
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+.insta{
+    position: absolute;
+        width: 41px;
+        height: 41px;
+        left: 100px;
+        top: 4359px;
+}
+.linkdein{
+position: absolute;
+    width: 50px;
+    height: 48px;
+    left: 156px;
+    top: 4356px;
+}
+.githlogo{
+position: absolute;
+    width: 49px;
+    height: 52px;
+    left: 218px;
+    top: 4353px;
+}
+.line{
+    position: absolute;
+        width: 369px;
+        height: 0px;
+        left: 90px;
+        top: 4430px;
+    
+        border: 1px solid #FFFFFF;
+}
+.detailtxt{
+    position: absolute;
+        width: 107px;
+        height: 25px;
+        left: 92px;
+        top: 4486px;
+    
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        /* identical to box height */
+    
+    
+        color: #FFFFFF;
+}
+input[type=text],
+select,
+textarea {
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 8px 16px;
+        gap: 8px;
+        position: absolute;
+        width: 300px;
+        height: 26px;
+        background: rgba(0, 0, 0, 0.06);
+        border-radius: 8px;
+    resize: vertical
+}
+input[type=submit]{
+    cursor: pointer;
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 16px;
+        gap: 8px;
+    
+        position: absolute;
+        width: 102px;
+        height: 43px;
+        left: 67px;
+        top: 700px;
+    
+        background: #FFFFFF;
+        border-radius: 15px;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.contactform {
+    border-radius: 5px;
+    background-color:black;
+position: absolute;
+    width: 130px;
+    height: 25px;
+    left: 661px;
+    top: 4579px;
+
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #FFFFFF;    padding: 20px;
+    position: absolute;
+        width: 600px;
+        height: 740px;
+        left: 700px;
+        top: 4051px;
+        background: #1E1E1E;
+}
+.footer{
+    position: absolute;
+        width: 100%;
+        height: 50px;
+        left: 0px;
+        top: 4900px;
+    
+        background:rgb(37, 37, 37);
 }
